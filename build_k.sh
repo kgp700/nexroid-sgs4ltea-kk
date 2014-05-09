@@ -1,8 +1,8 @@
 ##!/bin/bash
 
 export ARCH=arm
-export CROSS_COMPILE=/home/opensource.m/toolchains/arm-eabi-4.7/bin/arm-eabi-
-export VARIANT_DEFCONFIG=msm8974_sec_ks01_skt_defconfig
+export CROSS_COMPILE=/root/1test/toolchain/android-toolchain-eabi-1302/bin/arm-eabi-
+export VARIANT_DEFCONFIG=neok_ks01_skt_defconfig
 
-make msm8974_sec_defconfig
+make neok_ks01_skt_defconfig
 make
